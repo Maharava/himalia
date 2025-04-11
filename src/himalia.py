@@ -10,7 +10,7 @@ from src.emotion_dynamics import update_emotional_state, apply_emotional_decay, 
 from src.emotion_response import process_input, trigger_emotion, apply_emotional_contagion
 from src.emotion_memory import add_to_memory
 from src.emotion_output import generate_prompt, get_status_report
-from src.emotion_persistence import save_state, load_state
+from src.emotion_persistance import save_state, load_state
 
 class Himalia:
     """Main emotion simulation system"""
